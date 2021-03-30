@@ -24,6 +24,7 @@ class Newpost extends React.Component{
                 <option value="sesha">sesha</option>
                 <option value="sai">sai</option>
 
+
                  </select>
                  <button>Add</button>
 
