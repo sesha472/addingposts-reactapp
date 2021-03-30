@@ -1,0 +1,15 @@
+
+.Post{
+    background-color: rgb(89, 211, 170);
+    width: 100px;
+    padding: 20px;
+    box-shadow: 1px 20px 50px black;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.Post:hover{
+    background-color: aqua;
+}
+

@@ -1,0 +1,47 @@
+
+.Newpost{
+    background-color:rgb(164, 243, 226);
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family:cursive;
+  box-shadow: 10px 20px 60px black;
+
+
+
+}
+
+.Newpost input,
+.Newpost textarea,
+.Newpost select{
+
+    display: block;
+    width: 80%;
+    margin:2px auto;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+   border: 2px solid rgb(17, 61, 61);
+   border-radius: 6px;
+   font-family: sans-serif;
+
+}
+
+.Newpost button{
+   
+    margin: 11px auto;
+    padding:8px  40px;
+    background-color:rgb(247, 97, 252);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    
+
+
+}
+.Newpost button:hover{
+background-color: lawngreen;
+}
+
