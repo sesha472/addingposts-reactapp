@@ -11,6 +11,7 @@ function App() {
       <h1 style={{color:"blue" ,boxShadow:"1px 10px 32px black",width:"50%" ,marginLeft:"25%" }}> sesha's project</h1>
      {/* <Persons/> */}
      <Blog/>
+     
     </div>
   );
 }
