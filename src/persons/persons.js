@@ -116,7 +116,7 @@ class Persons extends React.Component{
     
 
    render(){
-    let personslist="clickthe button";
+    let personslist="clickthe button to see persons";
 if((this.state.showpersons)){
     personslist= (
 
@@ -125,6 +125,7 @@ if((this.state.showpersons)){
               return <Person   
                   name={item.name}
                   age={item.age}
+                  
                   key={item.id}
           userinput={(event)=>{this.inputhandler(event,item.id)}}
                   textclick={()=>this.deletpersonhandler(index)}
